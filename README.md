@@ -7,7 +7,7 @@
 ---
 **Multilanguage**
 
-*Versioni in altre lingue:* [English](https://github.com/Piero24/F.SW16-17/blob/main/README-EN.md) - [Italiano](https://github.com/Piero24/RDC20-21/blob/main/README.md)
+*Versioni in altre lingue:* [English](https://github.com/Piero24/RDC20-21/blob/main/README-EN.md) - [Italiano](https://github.com/Piero24/RDC20-21/blob/main/README.md)
 
 ## Esercizi in linguaggio C per l'esame di reti dei calcolatori
 
