@@ -46,6 +46,15 @@ Usare questo materiale solo ed esclusivamente per esercitarsi.
 
 Sono svariati esercizi lato server e lato client in linguaggio C.
 
+I file di base forniti dal docente sono quelli chiamati standardCW.c e standardSW.c
+All'interno di ogni Cartella è presente la soluzione completa e il file con il testo.
+
+I 2 file standard hanno commenti molto semplici su tutto il codice così da permettere
+una facile comprensione
+
+Le soluzioni invece hanno solo le righe modificate e/o aggiunte con il commmento.
+Le altre righe uguali a quelle dei file standard non presentano commenti per facilitarne la lettura.
+
 
 ### Authors and Copyright
 
