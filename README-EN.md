@@ -47,14 +47,13 @@ Use this material only and exclusively for practice.
 
 There are several server-side and client-side exercises in C language.
 
-The basic files provided by the teacher are those called standardCW.c and standardSW.c
-Inside each folder there is the complete solution and the file with the text.
+The basic files provided by the teacher are those called standardCW.c, standardCW.c and standardWP.c Inside each folder there is the complete solution and / or the file with the text.
 
-The 2 standard files have very simple comments on all the code to allow
-an easy understanding
+The 3 standard files have very simple comments on all the code so as to allow for easy understanding
 
-The solutions instead have only the lines modified and / or added with the comment.
-The other lines that are the same as those of the standard files do not have comments to make them easier to read.
+The txt file contains some recommendations and customizations for the vim text editor that will be used in the exam. The RDC21-prof folder contains everything you did during the year with the teacher.
+
+The solutions instead have only the lines modified and / or added with the comment. The other lines that are the same as those of the standard files do not have comments to make them easier to read.
 
 
 ### Authors and Copyright
