@@ -1,97 +1,72 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2580
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;\red64\green11\blue217;\red0\green0\blue0;\red193\green101\blue28;
-\red200\green20\blue201;\red47\green180\blue29;\red0\green0\blue255;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\cssrgb\c32308\c18668\c88227;\csgray\c0;\cssrgb\c80553\c47366\c13835;
-\cssrgb\c83396\c23075\c82664;\cssrgb\c20238\c73898\c14947;\cssrgb\c1680\c19835\c100000;\cssrgb\c0\c0\c0;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww22080\viewh14900\viewkind0
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+" F8 to save and compile creating np executable                                                                                                                                           
+map <F8> :w <CR> :!gcc % -o np -g <CR>
+" F9 to execute
+map <F9> :!./np <CR>
 
-\f0\fs22 \cf2 \ul \ulc2 \CocoaLigature0 " F8 to save and compile creating np executable\cf3 \ulc3                                                                                                                                            \ulnone \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf4 map\cf3  \cf5 <F8>\cf3  :w \cf5 <CR>\cf3  :!gcc % -o np -g \cf5 <CR>\cf3 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf2 " F9 to execute\cf3 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf4 map\cf3  \cf5 <F9>\cf3  :!./np \cf5 <CR>\cf3 \
-\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf2 " make your code look nicer\cf3 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf4 set\cf3  \cf5 tabstop\cf3 =4\
-\cf4 set\cf3  \cf5 shiftwidth\cf3 =4\
-\cf4 set\cf3  \cf5 softtabstop\cf3 =0 \cf5 expandtab\cf3 \
-\cf4 set\cf3  \cf5 incsearch\cf3 \
-\cf4 set\cf3  \cf5 cindent\
-\
-\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf2 \ul \ulc2 " Insert line numbers\cf3 \ulnone \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf4 set\cf3  \cf5 number\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf2 \ul " Insert the line to see which line we are in\cf3 \ulnone \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf4 set\cf3  \cf5 cursorline\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf2 \ul " By putting 'a' you can use the cursor to move but you cannot copy paste with 'r' or 'v' you can copy paste\cf3 \ulnone \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf4 set\cf3  \cf5 mouse\cf3 =r\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf2 \ul " Set the colors for the syntax\cf3 \ulnone \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf4 syntax\cf3  \cf6 on\
-\
-\
-\
-\
-To set vim copy and paste the previous lines on the file \cf3 vim ~/.vimrc\
-\
-\
-\
-RFC utili:\
-\
-RFC.791\
-RFC.792\
-RFC.793\
-RFC.826\
-RFC.1945\
-RFC.2616\
-\
-\
-\
-COPIARE FILE DA E VERSO IL SERVER:\
-\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf7 scp <source> <destination>\cf3 \
-\
-To copy a file from B to A while logged into B:\
-\
-\cf7 scp /path/to/file username@a:/path/to/destination\cf3 \
-\
-To copy a file from B to A while logged into A:\
-\
-\cf7 scp username@b:/path/to/file /path/to/destination\
-\cf8 \
-(aggiungere -r dopo scp se voglio copiare una directory \cf7 scp -r <source> <destination>\cf8 )\
-\
-\
-\
-\cf7 \
-\cf8 COMPILARE IL PROGRAMMA\cf7 \
-gcc [programName].c -o programName\
-\cf8 ESEGUIRE IL PROGRAMMA\cf7 \
-./programName\
-\
-\
-\
-\cf8 TENERE ATTIVA LA CONNESSIONE SSH\cf7 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf3 ssh -o ServerAliveInterval=20 username@address\cf7 \
-\
-\
-\
-\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-\cf8 SAPERE IL PERCORSO NEL QUALE MI TROVO\cf7 \
-pwd}
+" make your code look nicer
+set tabstop=4
+set shiftwidth=4
+set softtabstop=0 expandtab
+set incsearch
+set cindent
+
+
+" Insert line numbers
+set number
+" Insert the line to see which line we are in
+set cursorline
+" By putting 'a' you can use the cursor to move but you cannot copy paste with 'r' or 'v' you can copy paste
+set mouse=r
+" Set the colors for the syntax
+syntax on
+
+
+
+
+To set vim copy and paste the previous lines on the file vim ~/.vimrc
+
+
+
+RFC utili:
+
+RFC.791
+RFC.792
+RFC.793
+RFC.826
+RFC.1945
+RFC.2616
+
+
+
+COPIARE FILE DA E VERSO IL SERVER:
+
+scp <source> <destination>
+
+To copy a file from B to A while logged into B:
+
+scp /path/to/file username@a:/path/to/destination
+
+To copy a file from B to A while logged into A:
+
+scp username@b:/path/to/file /path/to/destination
+
+(aggiungere -r dopo scp se voglio copiare una directory scp -r <source> <destination>)
+
+
+
+
+COMPILARE IL PROGRAMMA
+gcc [programName].c -o programName
+ESEGUIRE IL PROGRAMMA
+./programName
+
+
+
+TENERE ATTIVA LA CONNESSIONE SSH
+ssh -o ServerAliveInterval=20 username@address
+
+
+
+
+SAPERE IL PERCORSO NEL QUALE MI TROVO
+pwd
