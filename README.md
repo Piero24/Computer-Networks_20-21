@@ -88,7 +88,7 @@ set mouse=r
 syntax on
 ```
 
-**RFC utili all'esame: **
+**RFC utili all'esame:**
 
 - RFC.791
 - RFC.792
@@ -112,7 +112,7 @@ Per copiare il file da B ad A se loggati in A:
 (aggiungere -r dopo scp se voglio copiare una directory `scp -r <source> <destination>`)
 
   
-**COMPILARE IL PROGRAMMA**
+- **COMPILARE IL PROGRAMMA**
 `gcc [programName].c -o programName`
   
 **ESEGUIRE IL PROGRAMMA**
