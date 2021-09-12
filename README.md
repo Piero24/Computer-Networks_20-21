@@ -52,7 +52,6 @@ All'interno di ogni Cartella è presente la soluzione completa e/o il file con i
 I 3 file standard hanno commenti molto semplici su tutto il codice così da permettere
 una facile comprensione
 
-Il file txt contiene alcuni consigli e personalizzazioni per il text editor vim che verrà usato all'esame.
 La cartella **RDC21-prof** contiene tutto quello fatto durante l'anno con il docente. 
 
 Le soluzioni invece hanno solo le righe modificate e/o aggiunte con il commmento.
