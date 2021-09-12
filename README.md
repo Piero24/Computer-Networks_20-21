@@ -58,6 +58,72 @@ La cartella **RDC21-prof** contiene tutto quello fatto durante l'anno con il doc
 Le soluzioni invece hanno solo le righe modificate e/o aggiunte con il commmento.
 Le altre righe uguali a quelle dei file standard non presentano commenti per facilitarne la lettura.
 
+### Tips
+
+Aprire il terminale e digitare: `vim ~/.vimrc`
+
+Copiare e incollare il seguente codice
+
+```
+" F8 to save and compile creating np executable                                                                                                                                           
+map <F8> :w <CR> :!gcc % -o np -g <CR>
+" F9 to execute
+map <F9> :!./np <CR>
+
+" make your code look nicer
+set tabstop=4
+set shiftwidth=4
+set softtabstop=0 expandtab
+set incsearch
+set cindent
+
+
+" Insert line numbers
+set number
+" Insert the line to see which line we are in
+set cursorline
+" By putting 'a' you can use the cursor to move but you cannot copy paste with 'r' or 'v' you can copy paste
+set mouse=r
+" Set the colors for the syntax
+syntax on
+```
+
+**RFC utili all'esame: **
+
+- RFC.791
+- RFC.792
+- RFC.793
+- RFC.826
+- RFC.1945
+- RFC.2616
+
+**COPIARE FILE DA E VERSO IL SERVER UNIPD:**
+
+`scp <source> <destination>`
+
+Per copiare il file da B ad A se loggati in B:
+
+`scp /path/to/file username@a:/path/to/destination`
+
+Per copiare il file da B ad A se loggati in A:
+
+`scp username@b:/path/to/file /path/to/destination`
+
+(aggiungere -r dopo scp se voglio copiare una directory `scp -r <source> <destination>`)
+
+  
+**COMPILARE IL PROGRAMMA**
+`gcc [programName].c -o programName`
+  
+**ESEGUIRE IL PROGRAMMA**
+`./programName`
+
+**TENERE ATTIVA LA CONNESSIONE SSH**
+`ssh -o ServerAliveInterval=20 username@address`
+
+**SAPERE IL PERCORSO NEL QUALE MI TROVO**
+`pwd`
+
 
 ### Authors and Copyright
 
