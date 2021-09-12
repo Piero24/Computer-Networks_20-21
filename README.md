@@ -111,18 +111,10 @@ Per copiare il file da B ad A se loggati in A:
 
 (aggiungere -r dopo scp se voglio copiare una directory `scp -r <source> <destination>`)
 
-  
-- **COMPILARE IL PROGRAMMA**
-`gcc [programName].c -o programName`
-  
-**ESEGUIRE IL PROGRAMMA**
-`./programName`
-
 **TENERE ATTIVA LA CONNESSIONE SSH**
 `ssh -o ServerAliveInterval=20 username@address`
 
-**SAPERE IL PERCORSO NEL QUALE MI TROVO**
-`pwd`
+
 
 
 ### Authors and Copyright
