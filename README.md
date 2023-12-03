@@ -6,9 +6,6 @@
 > University of Padua
 
 ---
-**Multilanguage**
-*Versions in other languages:* [English](https://github.com/Piero24/Computer-Networks_20-21/blob/main/README-EN.md) - [Italiano](https://github.com/Piero24/Computer-Networks_20-21/blob/main/README.md)
-
 
 ## Exercises in C language for the examination of computer networks
 
