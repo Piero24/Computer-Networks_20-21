@@ -1,67 +1,67 @@
 [![Last modified](https://img.shields.io/badge/Last%20modified-10--Aug--2021-red)](https://github.com/Piero24/F.SW16-17)
 # Computer-Networks_20-21
 
-> anno accademico 2020-2021 (unipd)
-> Università degli studi di Padova
+> academic year 2020-2021 (unipd)
+> 
+> University of Padua
 
 ---
 **Multilanguage**
-
-*Versioni in altre lingue:* [English](https://github.com/Piero24/Computer-Networks_20-21/blob/main/README-EN.md) - [Italiano](https://github.com/Piero24/Computer-Networks_20-21/blob/main/README.md)
-
-## Esercizi in linguaggio C per l'esame di reti dei calcolatori
+*Versions in other languages:* [English](https://github.com/Piero24/Computer-Networks_20-21/blob/main/README-EN.md) - [Italiano](https://github.com/Piero24/Computer-Networks_20-21/blob/main/README.md)
 
 
-Questi file sono gli esercizi richiesti nell'anno negli anni accademici precedenti per
-il corso di Reti dei calcolatori 1.
+## Exercises in C language for the examination of computer networks
 
-Qui è presente una raccolta con le relative soluzioni.
 
-Gli esercizi consistono nell'implementazione da parte dell'utente di alcune parti di codice
-che permettano di implementare nuove funzioni.
+These files are the exercises required in the year in previous academic years for
+the Computer Networks course 1.
 
-Sono presenti i testi dei vari esercizi con relativa soluzione.
+Here is a collection with related solutions.
 
-**NOTA:** Gli esercizi posso avere molteplici soluzioni e non è detto che quelle presenti
-in questi file siano le migliori.
+The exercises consist in the implementation by the user of some pieces of code
+that allow you to implement new functions.
+
+There are the texts of the various exercises with relative solution.
+
+**NOTE:** The exercises can have multiple solutions and not necessarily those present
+in these files are the best.
 
 
 ## Disclaimer
 
 
-Questi esercizi devono essere utilizzati ESCLUSIVAMENTE per apprendere le basi
-di reti dei calcolatori.
+These exercises are to be used ONLY to learn the basics
+of computer networks.
 
 
-**NON SONO IN ALCUN MODO RESPONSABILE DELL'UTILIZZO IMPROPRIO DEL PRESENTE MATERIALE.**
+**I AM IN NO WAY RESPONSIBLE FOR IMPROPER USE OF THIS MATERIAL.**
 
 
-**NON** basarsi esclusivamente sui seguenti esercizi per la preparazione.
-In quanto il programma del corso potrebbe variare durante gli anni.
-Usare questo materiale solo ed esclusivamente per esercitarsi.
+**DO NOT** rely solely on the following exercises for preparation.
+As the course program may vary over the years.
+Use this material only and exclusively for practice.
 
 
-## Descrizione
+## Description
 
 
-Sono svariati esercizi lato server e lato client in linguaggio C.
+There are several server-side and client-side exercises in C language.
 
-I file di base forniti dal docente sono quelli chiamati standardCW.c, standardCW.c e standardWP.c
-All'interno di ogni Cartella è presente la soluzione completa e/o il file con il testo.
+The basic files provided by the teacher are those called standardCW.c, standardCW.c and standardWP.c
+Inside each folder there is the complete solution and / or the file with the text.
 
-I 3 file standard hanno commenti molto semplici su tutto il codice così da permettere
-una facile comprensione
+The 3 standard files have very simple comments on all the code so as to allow for easy understanding
 
-La cartella **RDC21-prof** contiene tutto quello fatto durante l'anno con il docente. 
+The RDC21-prof folder contains everything you did during the year with the teacher.
 
-Le soluzioni invece hanno solo le righe modificate e/o aggiunte con il commmento.
-Le altre righe uguali a quelle dei file standard non presentano commenti per facilitarne la lettura.
+The solutions instead have only the lines modified and / or added with the comment.
+The other lines that are the same as those of the standard files do not have comments to make them easier to read.
 
 ### Tips
 
-Aprire il terminale e digitare: `vim ~/.vimrc`
+Open the terminal and type: `vim ~/.vimrc`
 
-Copiare e incollare il seguente codice
+Copy and paste the following code
 
 ```
 " F8 to save and compile creating np executable                                                                                                                                           
@@ -86,8 +86,7 @@ set mouse=r
 " Set the colors for the syntax
 syntax on
 ```
-
-**RFC utili all'esame:**
+**RFCs useful for the exam:**
 
 - RFC.791
 - RFC.792
@@ -96,23 +95,22 @@ syntax on
 - RFC.1945
 - RFC.2616
 
-**COPIARE FILE DA E VERSO IL SERVER UNIPD:**
+**COPY FILES TO AND FROM THE UNIPD SERVER:**
 
 `scp <source> <destination>`
 
-Per copiare il file da B ad A se loggati in B:
+To copy the file from B to A if logged into B:
 
 `scp /path/to/file username@a:/path/to/destination`
 
-Per copiare il file da B ad A se loggati in A:
+To copy the file from B to A if logged in to A:
 
 `scp username@b:/path/to/file /path/to/destination`
 
-(aggiungere -r dopo scp se voglio copiare una directory `scp -r <source> <destination>`)
+(ad -r after scp if I want to copy a directory `scp -r <source> <destination>`)
 
-**TENERE ATTIVA LA CONNESSIONE SSH**
+**KEEP THE SSH CONNECTION ACTIVE**
 `ssh -o ServerAliveInterval=20 username@address`
-
 
 
 
@@ -122,4 +120,4 @@ Pietrobon Andrea
 
 ### Note
 
-Questo materiale **NON** verrà più aggiornato in futuro.
+This material will **NOT** be updated in the future.
