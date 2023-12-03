@@ -1,5 +1,5 @@
 [![Last modified](https://img.shields.io/badge/Last%20modified-10--Aug--2021-red)](https://github.com/Piero24/F.SW16-17)
-# RDC20-21
+# Computer-Networks_20-21
 
 > anno accademico 2020-2021 (unipd)
 > Università degli studi di Padova
@@ -7,7 +7,7 @@
 ---
 **Multilanguage**
 
-*Versioni in altre lingue:* [English](https://github.com/Piero24/RDC20-21/blob/main/README-EN.md) - [Italiano](https://github.com/Piero24/RDC20-21/blob/main/README.md)
+*Versioni in altre lingue:* [English](https://github.com/Piero24/Computer-Networks_20-21/blob/main/README-EN.md) - [Italiano](https://github.com/Piero24/Computer-Networks_20-21/blob/main/README.md)
 
 ## Esercizi in linguaggio C per l'esame di reti dei calcolatori
 
